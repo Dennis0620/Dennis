@@ -4,7 +4,7 @@ matriz = [
     [8,3,16]
 ]
 
-def bubble_sort_fila(matriz, fila_index):
+def bubblesort(matriz, fila_index):
     fila = matriz[fila_index]
     n = len(fila)
 
@@ -20,7 +20,7 @@ for fila in matriz:
     print(fila)
 
 fila_a_ordenar = 1
-bubble_sort_fila(matriz, fila_a_ordenar)
+bubblesort(matriz, fila_a_ordenar)
 
 print("\nMatriz con la fila ordenada:")
 for fila in matriz:
