@@ -1,9 +1,11 @@
 def calculartemperatura(ciudades):
     promediar = {}
 
+   #Con el for recorre cada sublista de la matriz
     for i, temperatura in enumerate(ciudades):
+        #Calcula el promedio de las temperaturas de cada ciudad
         promedio = sum(temperatura)/len(temperatura)
-
+        #Aqui imprime el promedio asignado en cada ciudad
         promediar[f"Ciudad Ecuatoriana {i+1}"] = round(promedio, 2)
 
     return promediar
