@@ -1,4 +1,4 @@
-def calcular_descuento(montontotal,porcentaje_descuento=25): #Declaracion de la funcion
+def calcular_descuento(montontotal,porcentaje_descuento=25): #Declaracion de la funcion descuento
     descuento = montontotal * porcentaje_descuento / 100
     return descuento
 
