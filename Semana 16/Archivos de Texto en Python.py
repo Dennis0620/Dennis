@@ -9,3 +9,5 @@ print("\n Contenido del archivo de texto por linea: ")
 print("Linea 1:", linea1.strip())
 print("Linea 2:", linea2.strip())
 print("Linea 3:", linea3.strip()) #Aqui imprimimos por cada linea de texto de nuestro archivo
+
+archivotxt.close()
